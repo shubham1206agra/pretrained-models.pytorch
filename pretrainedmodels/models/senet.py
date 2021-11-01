@@ -26,7 +26,7 @@ pretrained_settings = {
     },
     'se_resnet50': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/se_resnet50-ce0d4300.pth',
+            'url': 'https://github.com/shubham1206agra/pretrained-models.pytorch/releases/download/test/se_resnet50-ce0d4300.pth',
             'input_space': 'RGB',
             'input_size': [3, 224, 224],
             'input_range': [0, 1],
