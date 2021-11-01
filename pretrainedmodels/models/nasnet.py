@@ -605,7 +605,7 @@ class NASNetALarge(nn.Module):
         return x
 
 
-def nasnetalarge(num_classes=1001, pretrained='imagenet'):
+def nasnetalarge(num_classes=1001, pretrained='imagenet+background'):
     r"""NASNetALarge model architecture from the
     `"NASNet" <https://arxiv.org/abs/1707.07012>`_ paper.
     """
