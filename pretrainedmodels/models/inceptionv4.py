@@ -11,7 +11,7 @@ __all__ = ['InceptionV4', 'inceptionv4']
 pretrained_settings = {
     'inceptionv4': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/inceptionv4-8e4777a0.pth',
+            'url': 'https://github.com/shubham1206agra/pretrained-models.pytorch/releases/download/test/inceptionv4-8e4777a0.pth',
             'input_space': 'RGB',
             'input_size': [3, 299, 299],
             'input_range': [0, 1],
@@ -20,7 +20,7 @@ pretrained_settings = {
             'num_classes': 1000
         },
         'imagenet+background': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/inceptionv4-8e4777a0.pth',
+            'url': 'https://github.com/shubham1206agra/pretrained-models.pytorch/releases/download/test/inceptionv4-8e4777a0.pth',
             'input_space': 'RGB',
             'input_size': [3, 299, 299],
             'input_range': [0, 1],
