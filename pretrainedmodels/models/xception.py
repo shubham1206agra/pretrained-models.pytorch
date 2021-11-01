@@ -34,7 +34,7 @@ __all__ = ['xception']
 pretrained_settings = {
     'xception': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/xception-43020ad28.pth',
+            'url': 'https://github.com/shubham1206agra/pretrained-models.pytorch/releases/download/test/xception-43020ad28.pth',
             'input_space': 'RGB',
             'input_size': [3, 299, 299],
             'input_range': [0, 1],
