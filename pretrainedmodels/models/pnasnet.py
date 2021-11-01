@@ -18,7 +18,7 @@ pretrained_settings = {
             'num_classes': 1000
         },
         'imagenet+background': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/pnasnet5large-bf079911.pth',
+            'url': 'https://csciitd-my.sharepoint.com/:u:/g/personal/tt1191044_iitd_ac_in/EWKnN7BHqEVPlheW19OmqzkB9GLT4U6N8fgwtrxx8EV9HQ?download=1',
             'input_space': 'RGB',
             'input_size': [3, 331, 331],
             'input_range': [0, 1],
