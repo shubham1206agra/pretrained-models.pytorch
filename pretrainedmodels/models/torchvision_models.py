@@ -32,8 +32,8 @@ __all__ = [
 model_urls = {
     'alexnet': 'https://download.pytorch.org/models/alexnet-owt-4df8aa71.pth',
     'densenet121': 'http://data.lip6.fr/cadene/pretrainedmodels/densenet121-fbdb23505.pth',
-    'densenet169': 'http://data.lip6.fr/cadene/pretrainedmodels/densenet169-f470b90a4.pth',
-    'densenet201': 'http://data.lip6.fr/cadene/pretrainedmodels/densenet201-5750cbb1e.pth',
+    'densenet169': 'https://github.com/shubham1206agra/pretrained-models.pytorch/releases/download/test/densenet169-f470b90a4.pth',
+    'densenet201': 'https://github.com/shubham1206agra/pretrained-models.pytorch/releases/download/test/densenet201-5750cbb1e.pth',
     'densenet161': 'http://data.lip6.fr/cadene/pretrainedmodels/densenet161-347e6b360.pth',
     'inceptionv3': 'https://download.pytorch.org/models/inception_v3_google-1a9a5a14.pth',
     'resnet18': 'https://download.pytorch.org/models/resnet18-5c106cde.pth',
