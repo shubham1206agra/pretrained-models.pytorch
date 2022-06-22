@@ -130,6 +130,7 @@ def modify_alexnet(model):
     # Modify attributs
     model._features = model.features
     del model.features
+    del model.avgpool
     model.dropout0 = model.classifier[0]
     model.linear0 = model.classifier[1]
     model.relu0 = model.classifier[2]
@@ -457,6 +458,7 @@ def modify_vggs(model):
     # Modify attributs
     model._features = model.features
     del model.features
+    del model.avgpool
     model.linear0 = model.classifier[0]
     model.relu0 = model.classifier[1]
     model.dropout0 = model.classifier[2]
