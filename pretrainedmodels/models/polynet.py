@@ -8,7 +8,7 @@ __all__ = ['PolyNet', 'polynet']
 pretrained_settings = {
     'polynet': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/polynet-f71d82a5.pth',
+            'url': 'https://github.com/shubham1206agra/pretrained-models.pytorch/releases/download/test/polynet-f71d82a5.pth',
             'input_space': 'RGB',
             'input_size': [3, 331, 331],
             'input_range': [0, 1],
